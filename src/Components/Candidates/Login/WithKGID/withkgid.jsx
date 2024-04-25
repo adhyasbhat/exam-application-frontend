@@ -1,3 +1,4 @@
+import React from 'react'
 function withkgid(){
     return(
         <>
@@ -7,7 +8,7 @@ function withkgid(){
     <div className="d-flex">
         <div className="text21 brown">KG-ID</div>
         <input type="text" className="KgidValue text21 brown"/>
-        <button className="text21 yellow">Verify</button>
+        <button className="text21 yellowBackground">Verify</button>
     </div>
     <div className="d-flex">
         <div className="text21 brown">Name</div>
@@ -31,7 +32,7 @@ function withkgid(){
             <input type="date" className="candidateDoj text21 brown"/>
         </div>
     </div>
-    <button type="submit">Submit</button>
+    <button className="yellowBackground"type="submit">Submit</button>
 </form>
 
         </div>

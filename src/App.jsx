@@ -1,9 +1,8 @@
 
-import './App.css'
-import Login from './Components/Candidates/Login/login.jsx'
-function App() {
- 
 
+import Login from './Components/Candidates/Login/login.jsx'
+import './App.css'
+function App() {
   return (
    <>
     <Login/>
